@@ -378,6 +378,14 @@ iframe{
     ;
 }
 
+/* footer section styles */
+footer{
+    max-width: 1600px;
+    max-height: 412px;
+    height: 412px;
+    background: url(../assets/footer-bg.png);
+}
+
 
 
 

@@ -32,6 +32,7 @@ body{
 }
 
 
+
 /* Header styles  */
 /* Navbar related styles */
 .navbar{
@@ -56,16 +57,100 @@ body{
 .nav-link{
     text-decoration: none;
     font-weight: 500;
-    
-
 }
-.btn button{
+.btn{
     background: linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1));
     border-radius: 10000px;
     padding: 12.5px 16px;
     border: 0;
+    gap: 4px;
+}
+
+
+/* banner related styles */
+.banner{
+    
+    height: 760px;
+    background-image: url(..//assets/hero-bg.png);
+}
+
+.banner-content{
+    max-height: 558px;
+    width: 550px;
+    height: 558px;
+    text-align: center;
+    padding: 101px 525px;
     
 }
+.hero-mic{
+    position: relative;
+    top: -270px;
+}
+.new{
+    background-color: #00FF88;
+    width: 75px;
+    height: 38px;
+    border: 0;
+    border-radius: 1000px;
+    padding: 1px 3px;
+    position: relative;
+    top: -520px;
+    right: -350px;
+
+}
+.banner-content h3{
+    font-size: 3.75rem;
+    font-weight: 800;
+    
+}
+.banner-content p{
+    opacity: 0.8;
+    padding-top: 8px;
+
+}
+.banner-btn {
+    padding-top: 24px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+.pos{
+    position: relative;
+    top: -165px;
+}
+
+.btn2{
+    background: linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1));
+    display: flex;
+    padding-left: 16px;
+    gap: 8px;
+    border: 0;
+    border-radius: 10000px;
+    font-weight: 600;
+
+    
+    
+}
+.btn2-transparent{
+    background: transparent;
+    border: 1px solid #00FF88;
+    color: #00FF88;
+    font-weight: 600;
+}
+.btn2 img{
+    width: 20px;
+    height: 20px;
+    padding-top: 12.5px;
+}
+.btn2 p{
+    padding: 15.5px 16px 15.5px 4px;
+
+}
+
+    
+    
+
+
 
 
 
